@@ -108,9 +108,10 @@ const Contact = () => {
             flexDirection: 'column',
             justifyContent: 'center',
             textAlign: 'left',
-            gap: 'var(--space-lg)'
+            gap: 'var(--space-lg)',
+            alignItems: 'flex-start'
           }}>
-            <div>
+            <div style={{ width: '100%' }}>
               <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', fontWeight: '700', marginBottom: 'var(--space-sm)' }}>
                 Direct Contact
               </h3>
@@ -129,7 +130,7 @@ const Contact = () => {
                 padding: '1rem var(--space-md)',
                 backgroundColor: 'var(--color-primary)',
                 color: 'white',
-                borderRadius: 'var(--radius-md)',
+                borderRadius: 'var(--//radius-md)',
                 fontWeight: '600',
                 textDecoration: 'none',
                 transition: 'all 0.2s ease',
